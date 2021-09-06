@@ -6,4 +6,4 @@ desired_name=$2
 # sets the variable second_file equal to the third argument passed to the script
 second_file=$3
 # wrap the first argument with the header.html and footer.html then places in the second file
-cat "$desired_name"_"header.html" "$first_file" "$desired_name"_"footer.html" > "$second_file"
+cat "${desired_name}_header.html" "$first_file" "${desired_name}_footer.html" > "$second_file"
